@@ -1,4 +1,4 @@
-const net = require('net');
+import {net} from 'net'
 
 // Configurações do firewall
 const ipsBloqueados = ['192.168.0.100', '10.0.0.1'];
