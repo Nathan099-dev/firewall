@@ -3,8 +3,8 @@ import {net} from 'net'
 // Configurações do firewall
 const ipsBloqueados = ['192.168.0.100', '10.0.0.1'];
 const portasBloqueadas = [80, 443, 25];
-const hostAtivo = '0.0.0.0'; // Escutar em todas as interfaces
-const portaAtiva = 8080; // Porta que o firewall escuta
+const hostAtivo = '0.0.0.0'; 
+const portaAtiva = 8080; 
 
 // Função para verificar se o IP ou porta está bloqueado
 function isIpBloqueado(ip) {
